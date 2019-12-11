@@ -9,9 +9,17 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 function hideModal() {
   const modal = document.getElementById('modal');
+  // modal.classList.add('hidden')
   modal.style.visibility = 'hidden';
 }
 
+function like() {
+
+}
+
+function unlike() {
+  
+}
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
